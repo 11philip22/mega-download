@@ -2,6 +2,7 @@
 name = "mega-download"
 version = "0.1.0"
 edition = "2024"
+description = "A small Rust CLI for downloading all files from a public MEGA folder."
 repository = "https://github.com/11philip22/mega-download"
 license = "MIT"
 keywords = ["mega", "download", "cli", "filesystem", "public-folder"]
