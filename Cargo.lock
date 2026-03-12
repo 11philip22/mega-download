@@ -862,7 +862,9 @@ dependencies = [
 
 [[package]]
 name = "megalib"
-version = "0.10.0"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "142b001882df96c4c71c397bbb0a4bac344e1da6a74d5a09518b68641e47d7c2"
 dependencies = [
  "aes",
  "aes-gcm",

@@ -1,10 +1,14 @@
 [package]
 name = "mega-download"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+repository = "https://github.com/11philip22/mega-download"
+license = "MIT"
+keywords = ["mega", "download", "cli", "filesystem", "public-folder"]
+categories = ["command-line-utilities", "filesystem"]
 
 [dependencies]
-megalib = { path = "../mega/megalib" }
+megalib = { version = "0.11.0" }
 tokio = { version = "1", features = ["full"] }
 clap = { version = "4", features = ["derive"] }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
